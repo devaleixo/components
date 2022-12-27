@@ -1,7 +1,6 @@
 .galery{
   display: flex;
   align-items: center;
-  flex-flow: row nowrap;
   justify-content: space-between;
   gap: 15vw;
 }
@@ -22,7 +21,7 @@
 }
 
 .icon {
-  animation: rotation 6s infinite linear;
+  animation: rotation 3s infinite linear;
 }
 
 @keyframes rotation {
@@ -31,5 +30,23 @@
   }
   to {
       transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .galery {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .item {
+    width: 204px;
+    height: 155px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .item {
+    width: 204px;
+    height: 155px;
   }
 }
