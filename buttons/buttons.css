@@ -1,0 +1,19 @@
+.btn1 {
+  width: 145px;
+  height: 99px;
+  margin-left: 30vw;
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 250px;
+  background-color: #F7B538;
+  box-shadow: 0px 2px 0px #000000;
+  font-family: "Roboto";
+  font-size: 1.4rem;
+}
+.btn-1-icon {
+  margin-right: 5px;
+}
+
+.btn1:hover {
+  background-color: #ffa600;
+}
